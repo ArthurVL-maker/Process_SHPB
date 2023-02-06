@@ -31,9 +31,10 @@ Software ORDA link: [https://doi.org/10.15131/shef.data.3996876.v1]
 
 #### PYTHON SOFTWARE:
 - Van Lerberghe, A., Barr, A. D. (2023) *process_SHPB.py* - a Python algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
-Software ORDA link: [https://doi.org/10.15131/shef.data.21973325] \
+Software ORDA link: [https://doi.org/10.15131/shef.data.21973325]
 - Van Lerberghe, A., Barr, A. D. (2023) *phase_velocity.py* - A Python algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars. University of Sheffield.\
-Software ORDA link: [https://doi.org/10.15131/shef.data.22010999]
+Software ORDA link: [https://doi.org/10.15131/shef.data.22010999]\
+Software GitHub link: [https://github.com/ArthurVL-maker/Phase_velocity.git]
 
 #### AUTHORS:
 Arthur Van Lerberghe <avanlerberghe1@sheffield.ac.uk> & Andrew D. Barr <a.barr@sheffield.ac.uk>.
