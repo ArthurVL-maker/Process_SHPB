@@ -5,7 +5,7 @@ When processing signals from split-Hopkinson pressure bar (SHPB) experiments, it
 
 *process_SHPB.py* is the main algorithm which processes all the SHPB test data, from which the subroutines *dispersion.py* and *dispersion_factors.py* are called. The algorithm was inspired by a Matlab script created by Barr (2016).
 
-The inputs for the key function *process_SHPB.py* are: raw file, which is the raw file collected from the SHPB test; sample data, which is a list containing the length, mass and dry mass of the sample tested; confinement, which specifies the confinement of the sample tested using the SHPB apparatus either ‘”None”, “Ring” or “Reservoir”; and correction, which is either a dispersion correction or a simple time shift analysis. In the 'Processed_Data' folder, all the necessary key results are saved as .csv files.
+The inputs for the key function *process_SHPB.py* are: raw file, which is the raw file collected from the SHPB test; sample data, which is a list containing the length, mass and dry mass of the sample tested; confinement, which specifies the confinement of the sample tested using the SHPB apparatus either ”None”, “Ring” or “Reservoir”; and correction, which is either a dispersion correction or a simple time shift analysis. In the 'Processed_Data' folder, all the necessary key results are saved as .csv files.
 
 The subroutine *dispersion.py*, in *process_SHPB.py*, uses an adaptation of Tyas and Pope’s (2005) dispersion-correction approach to verify that the inferred axial stress and strain data appropriately represent the specimen behaviour, as specified below:
 
