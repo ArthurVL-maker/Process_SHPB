@@ -478,9 +478,6 @@ def process_SHPB(raw_file, sample_data, confinement, correction):
         sample_radial_results = np.savetxt(filepath_sample_4, sample_radial_results, fmt='%s', delimiter=',', header='Radial_strain, Radial_stress')
         print('-' * 19 + ' PROCESSING COMPLETED ' + '-' * 19 + '\n')
 
-        # Folder to save processed key results data:
-        Path('Processed_data/' + file.parts[-1].split('.')[0] + result_type + '/Key_results').mkdir(parents=True, exist_ok=True)
-
     elif confinement_type == 'Reservoir':
         # Folder to save processed reservoir data:
         Path('Processed_data/' + file.parts[-1].split('.')[0] + result_type + '/Reservoir_results').mkdir(parents=True, exist_ok=True)
