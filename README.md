@@ -30,7 +30,7 @@ To save time, *dispersion.py* utilises a subroutine *dispersion_factors.py*, whi
 Software ORDA link: [https://doi.org/10.15131/shef.data.3996876.v1]
 
 #### PYTHON SOFTWARE:
-- Van Lerberghe, A., Barr, A. D. (2023) *process_SHPB.py* - a Python algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
+- Van Lerberghe, A., Barr, A. D. (2023) *process_SHPB.py* - A Python algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
 Software ORDA link: [https://doi.org/10.15131/shef.data.21973325]
 - Van Lerberghe, A., Barr, A. D. (2023) *phase_velocity.py* - A Python algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars. University of Sheffield.\
 Software ORDA link: [https://doi.org/10.15131/shef.data.22010999]\
